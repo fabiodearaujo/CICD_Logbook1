@@ -17,6 +17,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Lint Code Base
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          DEFAULT_BRANCH: fabio
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Compile
         run: echo Imagine we are compling our code here!
 
