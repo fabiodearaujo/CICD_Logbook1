@@ -11,4 +11,4 @@ CICD Pipeline with Super-linter for Logbook1.
 - Made tests with errors to Deployment be held by the workflow.
 - Corrected mistakes so workflow allow deployment.
 
-[![GitHub Super-Linter](https://github.com/fabiodearaujo/CICD_Logbook1/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![GitHub Super-Linter](https://github.com/fabiodearaujo/CICD_Logbook1/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
